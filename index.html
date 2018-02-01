@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TAMUG Tutorial</title>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/md5.min.js"></script>
+  <script src="/js/helper.js"></script>
+  <script>
+    const DATASET_ID = 'cjd2ja2y22fok2yqo3487fowg';
+    const STYLE = 'mapbox://styles/tailwindlabs/cj6xn5tis4idk2ro547e48lcg';
+    const DATASETS_BASE = 'https://api.mapbox.com/datasets/v1/tailwindlabs/' + DATASET_ID + '/';
+    const datasetsAccessToken = 'sk.eyJ1IjoidGFpbHdpbmRsYWJzIiwiYSI6ImNqZDExZjM1aTE1enYyeG13ZDUwOWRqYnUifQ.X0-8LBzVSK7K9mVThfnt7A';
+    mapboxgl.accessToken = 'pk.eyJ1IjoidGFpbHdpbmRsYWJzIiwiYSI6ImNqN3hneTR0ZTVwNzMycXJybXRsOTJueTIifQ.R1N3v49RPmQUhJDA4OhQ1w';
+
+    // Add your code here
+  </script>
+</body>
+</html>
