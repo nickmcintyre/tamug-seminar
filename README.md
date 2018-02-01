@@ -1,0 +1,2 @@
+# tamug
+Seminar code
